@@ -335,10 +335,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: border-color var(--transition-durartion-timing),  fill var(--transition-durartion-timing);
+    transition: border-color var(--transition-durartion-timing);
 }
 .customers-icon{
     fill: var(--customers-icon-color);
+    transition: fill var(--transition-durartion-timing)
 }
 
 .customers-icon-link:hover, 
@@ -393,7 +394,7 @@ body {
     height: 100%;
     top: 0;
     background-color: rgba(46, 47, 66, 0.4);
-    transition: opasity var(--transition-durartion-timing), visibility var(--transition-durartion-timing);
+    transition: opacity var(--transition-durartion-timing), visibility var(--transition-durartion-timing);
 }
 .modal{
     width: 408px;
